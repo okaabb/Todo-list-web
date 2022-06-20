@@ -1,0 +1,40 @@
+.form {
+	text-align: center;
+}
+.form-control {
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 20px rgb(133 133 133 / 13%);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+label {
+	color: #fff;
+	padding: 10px;
+	font-size: 1.2rem;
+}
+.form-control input {
+	margin-left: 20px;
+	border-radius: 4px;
+}
+.form-control input[type='number'] {
+	width: 40px;
+	height: 20px;
+	text-align: center;
+}
+
+.save {
+	padding: 20px 40px;
+	border-radius: 50px;
+	border: 2px solid #3c4ef3;
+	color: #3c4ef3;
+	background-color: transparent;
+	font-size: 1.3rem;
+	margin-top: 10px;
+}
+.save:hover {
+	background-color: #3c4ef3;
+	color: #fff;
+}

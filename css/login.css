@@ -1,0 +1,70 @@
+body {
+	background-image: url(/img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: fantasy;
+}
+.border {
+	height: 98vh;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-areas:
+		'. . . . . .'
+		'. . log log . .'
+		'. . log log . .'
+		'. . log log . .'
+		'. . . . . .';
+}
+.ContenerOfLogin {
+	background-color: rgb(93 134 160);
+	grid-area: log;
+	display: flex;
+	border-radius: 65px;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+.title {
+	color: white;
+	font-size: 69px;
+	text-align: center;
+	margin: 47px 62px 45px 62px;
+	text-shadow: 9px 6px 9px black, 8px 12px 16px black;
+	letter-spacing: 8px;
+}
+.please {
+	color: rgb(78 88 95);
+	margin: 11px;
+}
+.login,
+.email,
+.pass {
+	border-radius: 30px;
+	height: 50px;
+	color: #ffffffbf;
+	font-size: 16px;
+	text-align: center;
+	background-color: black;
+	margin: 12px;
+	/* box-shadow: 0 0 10px white; */
+}
+.Submit {
+	display: flex;
+	justify-content: center;
+}
+.login {
+	font-weight: bolder;
+	width: 130px;
+	box-shadow: 0 0 20px rgb(45 56 60);
+}
+.login:hover {
+	background-color: white;
+	color: black;
+}
+.sign {
+	color: rgb(78 88 95);
+	margin: 11px;
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+input[type='submit']:hover,
+ button:hover {
+    cursor: pointer;
+} 
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fxbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Header Styles */
+
+.loggedIn {
+    display: none;
+}
+
+header {
+    padding: 15px 15rem;
+    background-color: rgb(5, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 2%);
+}
+
+header .logo {
+    text-decoration: none;
+    color: #efeff7;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-family: 'Rampart One', cursive;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+.login-btn,
+.register-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #3c4ef3;
+}
+
+.register-btn {
+    margin-right: 5px;
+    color: #85838f;
+    border-color: #85838f;
+}
+
+.register-btn:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.login-btn {
+    color: #3c4ef3;
+    border: 2px solid #3c4ef3;
+}
+
+.login-btn:hover {
+    background-color: #3c4ef3;
+    color: #fff;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #85838f;
+    padding: 0 20px;
+}
+
+header nav a.active {
+    color: #000;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #2f3135;
+}

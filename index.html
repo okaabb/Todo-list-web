@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home</title>
+		<link rel="stylesheet" href="css/shared.css" />
+		<link rel="stylesheet" href="css/home.css" />
+	</head>
+
+	<body>
+		<header>
+			<a class="logo" href="#">
+				<h1>5DIVS</h1>
+			</a>
+			<nav>
+				<a class="active" href="#">Home</a>
+				<a href="/about.html">About</a>
+				<a href="#">Pricing</a>
+				<a href="/todo.html">Todo</a>
+			</nav>
+
+			<ul class="auth">
+				<li>
+					<a href="/register.html" class="register-btn">Join Us</a>
+				</li>
+				<li>
+					<a href="/login.html" class="login-btn">Login</a>
+				</li>
+			</ul>
+			<ul class="loggedIn">
+				<li>
+					<a href="#" class="logout login-btn">Sign Out</a>
+				</li>
+			</ul>
+		</header>
+		<main>
+			<section class="topSection">
+				<div class="container content">
+					<h2>
+						Boost Your Productivity<br />
+						via our Software<br />
+						Fast. Seriously
+					</h2>
+					<p>
+						The first step toward becoming more productive, in other words, is determining your own productivity style — then, and only then, can you figure out which of the many tips and tricks out
+						there actually fit your needs.
+					</p>
+					<div class="buttons">
+						<a href="/register.html">Get Started</a>
+						<a href="/about.html">Learn more</a>
+					</div>
+				</div>
+				<div class="container">
+					<img src="/img/home.png" alt="Productivity" />
+				</div>
+			</section>
+
+			<section class="collab">
+				<h2>
+					Working with Global<br />
+					Companies
+				</h2>
+				<ul>
+					<li>
+						<img src="img/companies/google.png" alt="google" />
+					</li>
+
+					<li>
+						<img src="img/companies/facebook.png" alt="facebook" />
+					</li>
+
+					<li>
+						<img src="img/companies/instagram.png" alt="instagram" />
+					</li>
+
+					<li>
+						<img src="img/companies/netflix.png" alt="netflix" />
+					</li>
+					<li>
+						<img src="img/companies/airbnb.png" alt="airbnb" />
+					</li>
+				</ul>
+			</section>
+			<section class="team">
+				<h2>Team</h2>
+				<div class="slider-container fxbox">
+					<div class="arrow left-arrow" onclick="moveLeft()">
+						<img src="/img/left-arrow.png" alt="" />
+					</div>
+
+					<div class="image-container fxbox">
+						<img src="img/users/1.jpeg" alt="image" />
+						<img src="img/users/2.jpeg" alt="image" />
+						<img src="img/users/3.jpeg" alt="image" />
+						<img src="img/users/4.jpeg" alt="image" />
+					</div>
+
+					<div class="arrow right-arrow" onclick="moveRight()">
+						<img src="/img/right-arrow.png" alt="" />
+					</div>
+				</div>
+				<div class="desc">
+					<div>
+						<h3>Adam Lerner</h3>
+						<p>
+							Adam Lerner is a NYC-based editorial and portrait photographer driven by capturing direct and authentic moments from his subjects. He is also a content creator with Brooklyn Photo Works.
+							After college, he fulfilled his childhood dream of playing CBGB’s and toured the country with his indie rock band while taking pictures with his dad’s old Pentax film camera. It was
+							during tour that his passion for creating music quickly translated into creating imagery. Since then, Adam has been published by countless magazines and brands around the globe. Adam
+							lives in New York City with his wife and two rescue dogs, and is available for commissions worldwide.
+						</p>
+					</div>
+					<div>
+						<h3>Colleen Chrzanowski</h3>
+						<p>
+							Colleen Chrzanowski is a Chicago based Kids + Fashion photographer who frequently works out of NYC and LA. Her style is crisp, forward and fresh. With technical accuracy and ever rising
+							standards honed from her early days growing up in a family of entrepreneurs and artists, she’s become known for capturing the perfect combination of expressive energy, authentic moments,
+							and textural light on set. When she's not flying across the country for a commercial shoot, you can find her at her large, airy studio on the west side of Chicago, working her magic on
+							Kids portfolio shoots and creating content for her prolific #denimjacketportrait project.
+						</p>
+					</div>
+					<div>
+						<h3>Hayden Stinebaugh</h3>
+						<p>
+							Hayden Stinebaugh is a Detroit based automotive and lifestyle photographer known for his clean, polished, and intentional style. Fueled with precision and passion, he’s always revved up
+							and ready to bring his A-game to set. Select clients include Ford, Lincoln, Honda, Thrillist, ASH New York, and Lululemon among others. When he’s not shooting professionally, you can
+							still find him behind the lens exploring untucked corners of Motor City or venturing out on the open road in pursuit of capturing the perfect terrain.
+						</p>
+					</div>
+					<div>
+						<h3>Clay Cook</h3>
+						<p>
+							Louisville based photographer, blogger and social influencer, Clay Cook knows the importance of going the extra mile. After a long, arduous run in the music business, his creative vision
+							and relentless work ethic have led him to an inspiring career in Advertising and Editorial photography. During his short time in the industry, Clay has shaped creative projects with
+							brands such as: Kentucky Tourism, A&E, Lifetime, Comcast, Livestrong, the NFL, and Papa John’s. He’s also brought to life global assignments for publications like Time, Forbes, Popular
+							Mechanics, The Guardian, USA Today, and ESPN.
+						</p>
+					</div>
+				</div>
+
+				<div>
+					<ul class="dotList"></ul>
+				</div>
+			</section>
+		</main>
+
+		<script src="js/shared.js"></script>
+		<script src="js/home.js"></script>
+	</body>
+</html>
